@@ -5,4 +5,5 @@ while True:
     if str == '':
         break
     print(str, end = '')
+    
 file.close()
