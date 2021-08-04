@@ -6,7 +6,7 @@
 class Candy:
     def __init__(self, shape, color):
         self.shape = shape
-        self.shape = color
+        self.color = color
 
 
 
@@ -15,8 +15,8 @@ class Candy:
 
 satang = Candy('circle', 'brown')
 
-# print(satang.shape)
-# print(satang.color)
+print(satang.shape)
+print(satang.color)
 
 class Sample:
     def __del__(self):
